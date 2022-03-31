@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "kumba-global-tfstate"
+    bucket = "kumba-global-tfstat"
     prefix = "env/prod"
   }
 }
